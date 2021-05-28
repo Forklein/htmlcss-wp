@@ -62,6 +62,10 @@
     clear: both;
 }
 
+.image-box{
+    margin-top: 20px;
+}
+
 .float{
     float: left;
 }
@@ -106,8 +110,17 @@
     height: 200px;
 }
 
+.description p:only-of-type{
+    color: #b8b8b8;
+}
+
+.description h3:only-of-type{
+    padding: 10px 0;
+}
+
 footer{
     text-align: center;
+    margin-bottom: 25px;
 }
 
 footer > i{
