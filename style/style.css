@@ -28,7 +28,7 @@
 }
 
 #default-box{
-    width: 1000px;
+    width: 1200px;
     height: 500px;
     border-radius: 20px;
     margin-top: 30px;
@@ -54,4 +54,62 @@
 
 .title h6{
     color: gray;
+}
+
+.image-box::after, .description::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float{
+    float: left;
+}
+
+.first-box{
+    width: 25%;
+    height: 200px;
+    background-image: url("../img/img-1.jpg");
+    border: 2px solid black;
+    background-size: cover;
+}
+
+.second-box{
+    width: 50%;
+    height: 200px;
+    background-image: url("../img/banner-2.jpg");
+    border: 2px solid black;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.third-box{
+    width: 25%;
+    height: 200px;
+    background-image: url("../img/img-3.jpg");
+    border: 2px solid black;
+    background-size: cover;
+}
+
+.first-description{
+    width: 25%;
+    height: 200px;
+}
+
+.second-description{
+    width: 50%;
+    height: 200px;
+}
+
+.third-description{
+    width: 25%;
+    height: 200px;
+}
+
+footer{
+    text-align: center;
+}
+
+footer > i{
+    color: red;
 }
