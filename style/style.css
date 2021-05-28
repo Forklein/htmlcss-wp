@@ -3,3 +3,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#logo > img{
+    width: 15%;
+}
+
+.nav li{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.nav a{
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0 5px;
+    color: gray;
+}
+
+.box-default > img{
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.title{
+    margin-top: 10px ;
+}
+
+.title h3{
+    font-size: 30px;
+}
+
+.title h6{
+    color: gray;
+}
